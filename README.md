@@ -93,4 +93,7 @@ Voici une démonstration complète de l'application illustrant le scénario : Lo
 https://raw.githubusercontent.com/Salakhal/gestion_agence_immobliere/main/vidio_immo.mp4
 
 
+**Projet Académique 2024/2025**
 
+ **Réalisé par :** Salma LAKHAL
+ 
