@@ -87,7 +87,9 @@ Le système repose sur quatre tables principales :
 
 # Vidéo sur les interfaces de l'application
 
+Voici une démonstration complète de l'application illustrant le scénario : Login, Gestion des biens, Recherche et visualisation du Dashboard.
 
-https://raw.githubusercontent.com/Salakhal/gestion_agence_immobliere/main/vidio_immo.mp4
+[**Cliquez ici pour voir la vidéo**]([lien_vers_votre_video.mp4](https://raw.githubusercontent.com/Salakhal/gestion_agence_immobliere/main/vidio_immo.mp4))
+
 
 
