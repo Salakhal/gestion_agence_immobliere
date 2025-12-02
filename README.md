@@ -45,20 +45,15 @@ Actuellement, la gestion des biens et des locations se fait souvent manuellement
 
 Pour lancer le projet sur votre machine, suivez ces étapes :
 
-### 1. Base de Données
-1.  Assurez-vous d'avoir un serveur MySQL lancé (via XAMPP ou WAMP).
-2.  Ouvrez **phpMyAdmin**.
-3.  Créez une base de données nommée `agence_immo`.
-4.  Importez le fichier **`agence_immo.sql`** fourni dans le dossier `database` ou à la racine du projet.
-
-### 2. Configuration de la Connexion
+### 1. Configuration de la Connexion
 Vérifiez la classe `connexion.Connexion.java` si vos identifiants MySQL sont différents :
 ```java
 String url = "jdbc:mysql://localhost:3306/agence_immo";
 String user = "root";
 String password = ""; // Ou votre mot de passe
+```
 
-## Structure de la Base de Données
+## 2. Structure de la Base de Données
 
 Le système repose sur quatre tables principales :
 
@@ -114,3 +109,11 @@ CREATE TABLE location (
 
 -- Insertion admin par défaut
 INSERT INTO users (login, password, email) VALUES ('admin', '1234', 'votre_email@gmail.com');
+```
+
+# Vidéo sur les interfaces de l'application
+
+
+
+
+
