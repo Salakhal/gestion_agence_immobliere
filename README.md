@@ -114,8 +114,6 @@ INSERT INTO users (login, password, email) VALUES ('admin', '1234', 'votre_email
 # Vidéo sur les interfaces de l'application
 
 
-<video width="600" controls>
-  <source src=" https://github.com/Salakhal/gestion_agence_immobliere/blob/main/vidio_immo.mp4" type="video/mp4">
-</video>
+https://raw.githubusercontent.com/Salakhal/gestion_agence_immobliere/main/vidio_immo.mp4
 
 
