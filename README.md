@@ -114,6 +114,8 @@ INSERT INTO users (login, password, email) VALUES ('admin', '1234', 'votre_email
 # Vidéo sur les interfaces de l'application
 
 
-
+<video width="600" controls>
+  <source src="" type="video/mp4">
+</video>
 
 
