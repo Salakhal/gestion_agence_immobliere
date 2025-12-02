@@ -30,6 +30,16 @@ Actuellement, la gestion des biens et des locations se fait souvent manuellement
 * **Graphique Dynamique :** Histogramme visuel affichant les revenus locatifs par ville.
 
 ---
+## 3. MCD (Modèle Conceptuel de Données)
+
+Le système d'information repose sur les entités suivantes :
+
+* **Utilisateur (Admin) :** Gère l'accès à l'application.
+* **Propriétaire :** Possède un ou plusieurs biens.
+* **Bien :** Appartient à un propriétaire et peut faire l'objet de locations.
+* **Location :** Lie un bien à une période donnée et génère un revenu.
+
+  ![MCD du projet](src/images/mcd.png)
 
 ## 🛠️ Technologies Utilisées
 
