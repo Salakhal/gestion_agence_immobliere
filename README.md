@@ -50,8 +50,8 @@ L'application respecte une architecture en couches (Layered Architecture) pour s
 * **Couche Modèle (Entities) :** Représentation des objets (Classes `Bien`, `Proprietaire`, `User`).
 * **Base de Données :** Stockage persistant avec **MySQL**.
 
-![Architecture Technique](<img width="1536" height="1024" alt="archicture" src="https://github.com/user-attachments/assets/c45302b8-a36a-453c-824c-0c375c3be175" />
-)
+<img width="1536" height="1024" alt="archicture" src="https://github.com/user-attachments/assets/65095a19-d28a-48f9-94f3-fb14ab57b1e9" />
+
 
 ## 🛠️ Technologies Utilisées
 
