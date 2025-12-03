@@ -195,11 +195,11 @@ public LoginForm() {
             ResultSet rs = ps.executeQuery();
 
             if (rs.next()) {
-                // Login S7i7 -> Hello MainFrame
+                // Login vrai -> Hello MainFrame
                 new MainFrame().setVisible(true);
                 this.dispose(); // Ssed Login
             } else {
-                // Ghalat
+                // faux
                 JOptionPane.showMessageDialog(this, "Login ou Mot de passe incorrect !", "Erreur", JOptionPane.ERROR_MESSAGE);
             }
 
