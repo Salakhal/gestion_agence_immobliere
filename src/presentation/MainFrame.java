@@ -27,13 +27,13 @@ public class MainFrame extends javax.swing.JFrame {
         desktopPane.removeAll();
         desktopPane.repaint();
 
-        // 2. Nsawbo fenetre dakhiliya
+        
         JInternalFrame iframe = new JInternalFrame(titre, true, true, true, true);
         iframe.setSize(desktopPane.getWidth(), desktopPane.getHeight()); // Tchad l'ecran
         iframe.setContentPane(panel); // N7etto Form dyalk l'dakhel
         iframe.setVisible(true);
 
-        // 3. Nzidoha f l'ecran l'k7el
+       
         desktopPane.add(iframe);
         try {
             iframe.setMaximum(true); // Plein écran
