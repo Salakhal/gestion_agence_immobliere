@@ -39,7 +39,11 @@ Le système d'information repose sur les entités suivantes :
 * **Bien :** Appartient à un propriétaire et peut faire l'objet de locations.
 * **Location :** Lie un bien à une période donnée et génère un revenu.
 
-  ![MCD du projet](src/images/mcd.png)
+  ### MCD du projet
+  
+  [Uploading MCD_agence_immo.mcd…]()
+<img width="1574" height="557" alt="image" src="https://github.com/user-attachments/assets/fd27ef2d-d340-4afd-aabd-671452993223" />
+
 
   ## 6. Architecture du projet
 
