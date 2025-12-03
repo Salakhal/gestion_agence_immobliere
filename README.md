@@ -41,7 +41,6 @@ Le système d'information repose sur les entités suivantes :
 
   ### MCD du projet
   
-  [Uploading MCD_agence_immo.mcd…]()
 <img width="1574" height="557" alt="image" src="https://github.com/user-attachments/assets/fd27ef2d-d340-4afd-aabd-671452993223" />
 
 
@@ -87,6 +86,55 @@ Le système repose sur quatre tables principales :
 2.  **Proprietaire** : Informations sur les propriétaires des biens (nom, contact, email, adresse).
 3.  **Bien** : Détails des biens immobiliers (type, surface, prix, ville, statut).
 4.  **Location** : Gestion des contrats de location (date début, date fin, montant).
+
+   ### Script de la Base de Données
+
+```sql
+CREATE DATABASE IF NOT EXISTS agence_immo;
+USE agence_immo;
+
+-- Table des Utilisateurs (Administrateurs)
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    login VARCHAR(50) NOT NULL,
+    password VARCHAR(50) NOT NULL,
+    email VARCHAR(100) -- Pour la récupération du mot de passe
+);
+
+-- Table des Propriétaires
+CREATE TABLE proprietaire (
+    id_prop INT AUTO_INCREMENT PRIMARY KEY,
+    nom VARCHAR(100) NOT NULL,
+    contact VARCHAR(50),
+    email VARCHAR(100),
+    adresse VARCHAR(255)
+);
+
+-- Table des Biens Immobiliers
+CREATE TABLE bien (
+    id_bien INT AUTO_INCREMENT PRIMARY KEY,
+    type VARCHAR(50) NOT NULL, -- Appartement, Villa, etc.
+    surface DOUBLE,
+    prix_mensuel DOUBLE NOT NULL,
+    ville VARCHAR(50),
+    disponible BOOLEAN DEFAULT TRUE,
+    id_prop INT,
+    FOREIGN KEY (id_prop) REFERENCES proprietaire(id_prop) ON DELETE CASCADE
+);
+
+-- Table des Locations
+CREATE TABLE location (
+    id_loc INT AUTO_INCREMENT PRIMARY KEY,
+    date_debut DATE,
+    date_fin DATE,
+    montant DOUBLE,
+    id_bien INT,
+    FOREIGN KEY (id_bien) REFERENCES bien(id_bien) ON DELETE CASCADE
+);
+
+-- Insertion admin par défaut
+INSERT INTO users (login, password, email) VALUES ('admin', '1234', 'lakhalsalma18email@gmail.com');
+```
 
 # Vidéo de installation de l'applicaton :
 
