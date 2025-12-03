@@ -148,10 +148,6 @@ https://github.com/user-attachments/assets/4fb01253-2a7e-4a10-85a1-f37467b30b37
 Voici une démonstration complète de l'application illustrant le scénario : Login, Gestion des biens, Recherche et visualisation du Dashboard.
 
 **Cliquez ici pour voir la vidéo** :
-https://raw.githubusercontent.com/Salakhal/gestion_agence_immobliere/main/vidio_immo.mp4
-
-
-
 
 https://github.com/user-attachments/assets/25bd07a5-fe78-4a17-ae2e-b305089a2713
 
