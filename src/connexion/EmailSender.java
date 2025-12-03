@@ -9,10 +9,11 @@ import javax.mail.internet.*;
 
 public class EmailSender {
 
-    // ⚠️ KTEB EMAIL DYALK HNA
+    
+
     private static final String MON_EMAIL = "lakhalsalma18@gmail.com"; 
     
-    // ⚠️ KTEB APP PASSWORD HNA (16 7arf)
+    
     private static final String MON_PASSWORD = "hvnb qfdx ezvt yfwh"; 
 
     public static void sendPassword(String destinataire, String motDePasse) throws Exception {
