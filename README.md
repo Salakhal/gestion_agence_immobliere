@@ -84,6 +84,11 @@ Le système repose sur quatre tables principales :
 3.  **Bien** : Détails des biens immobiliers (type, surface, prix, ville, statut).
 4.  **Location** : Gestion des contrats de location (date début, date fin, montant).
 
+# Vidéo de installation de l'applicaton :
+
+
+https://github.com/user-attachments/assets/4fb01253-2a7e-4a10-85a1-f37467b30b37
+
 
 
 # Vidéo sur les interfaces de l'application
@@ -92,6 +97,8 @@ Voici une démonstration complète de l'application illustrant le scénario : Lo
 
 **Cliquez ici pour voir la vidéo** :
 https://raw.githubusercontent.com/Salakhal/gestion_agence_immobliere/main/vidio_immo.mp4
+
+
 
 ------
 
