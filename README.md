@@ -158,5 +158,16 @@ https://github.com/user-attachments/assets/25bd07a5-fe78-4a17-ae2e-b305089a2713
 
 **Projet Académique 2024/2025**
 
- **Réalisé par :** Salma LAKHAL
+  --> **Agence Immobilière**
+
+ 
+ ##  Auteur
+ 
+ **Réalisé par :**  `Salma LAKHAL`
+**École Normale Supérieure de Marrakech** 
+> **Module :** `Fondamentaux et Concepts Avancés de la Programmation Java`
+> **Encadré par :** `Pr. Mohamed LACHGAR`
+---
+
+###  Merci d’avoir consulté ce projet !
  
