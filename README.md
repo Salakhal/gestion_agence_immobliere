@@ -55,6 +55,7 @@ L'application respecte une architecture en couches (Layered Architecture) pour s
 
 <img width="6999" height="2851" alt="archi_immo" src="https://github.com/user-attachments/assets/d50f04e0-ca7c-4d57-9fef-d94a8edc5376" />
 
+<img width="5505" height="3557" alt="archi-immo" src="https://github.com/user-attachments/assets/f86ab0e7-e2e1-4a78-b249-9fea99de570a" />
 
 
 ## 🛠️ Technologies Utilisées
