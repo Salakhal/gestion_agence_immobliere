@@ -49,7 +49,7 @@ L'application respecte une architecture en couches (Layered Architecture) pour s
 
 * **Couche Présentation (Vues) :** Interfaces graphiques développées avec **Java Swing** (`MainFrame`, `LoginForm`, `DashboardForm`...).
 * **Couche Service (DAO) :** Gestion de la logique métier et communication avec la base de données via **JDBC**.
-* **Couche Modèle (Entities) :** Représentation des objets (Classes `Bien`, `Proprietaire`, `User`).
+* **Couche Modèle (Entities) :** Représentation des objets (Classes `Bien`, `Proprietaire`,`Location`, `User`).
 * **Base de Données :** Stockage persistant avec **MySQL**.
 
 <img width="6999" height="2851" alt="archi_immo" src="https://github.com/user-attachments/assets/d50f04e0-ca7c-4d57-9fef-d94a8edc5376" />
