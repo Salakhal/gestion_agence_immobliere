@@ -140,7 +140,11 @@ INSERT INTO users (login, password, email) VALUES ('admin', '1234', 'lakhalsalma
 # Vidéo de installation de l'applicaton :
 
 
-https://github.com/user-attachments/assets/4fb01253-2a7e-4a10-85a1-f37467b30b37
+
+
+https://github.com/user-attachments/assets/71a55739-764a-496d-abe7-a5935228f6fe
+
+
 
 
 
