@@ -107,8 +107,7 @@ CREATE TABLE users (
 CREATE TABLE proprietaire (
     id_prop INT AUTO_INCREMENT PRIMARY KEY,
     nom VARCHAR(100) NOT NULL,
-    contact VARCHAR(50),
-    email VARCHAR(100),
+    contact INT,
     adresse VARCHAR(255)
 );
 
@@ -119,7 +118,6 @@ CREATE TABLE bien (
     surface DOUBLE,
     prix_mensuel DOUBLE NOT NULL,
     ville VARCHAR(50),
-    disponible BOOLEAN DEFAULT TRUE,
     id_prop INT,
     FOREIGN KEY (id_prop) REFERENCES proprietaire(id_prop) ON DELETE CASCADE
 );
@@ -129,7 +127,7 @@ CREATE TABLE location (
     id_loc INT AUTO_INCREMENT PRIMARY KEY,
     date_debut DATE,
     date_fin DATE,
-    montant DOUBLE,
+    Loyer DOUBLE,
     id_bien INT,
     FOREIGN KEY (id_bien) REFERENCES bien(id_bien) ON DELETE CASCADE
 );
