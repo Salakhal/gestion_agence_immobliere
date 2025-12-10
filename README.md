@@ -40,7 +40,8 @@ Le système d'information repose sur les entités suivantes :
 * **Location :** Lie un bien à une période donnée et génère un revenu.
 
   ### MCD du projet
-<img width="1603" height="583" alt="image" src="https://github.com/user-attachments/assets/fb031a18-0a6b-4624-943d-011582a675f3" />
+<img width="1662" height="540" alt="image" src="https://github.com/user-attachments/assets/bf173839-02d8-4b92-bca0-514267158735" />
+
 
 
 
