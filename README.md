@@ -157,24 +157,28 @@ Voici une démonstration complète de l'application illustrant le scénario : Lo
 https://github.com/user-attachments/assets/25bd07a5-fe78-4a17-ae2e-b305089a2713
 
 
-
 ------
 
+ 
+## 👤 Auteur
+
+* **École Normale Supérieure de Marrakech**
+  
+* **Réalisé par :** SALMA LAKHAL
+  
+* **Filière  :** CLE_INFO_S5
+  
+* **Date :**  2/12/2025
+  
+* **Encadré par :** Pr. Mohamed LACHGAR
+
+* **Module :** `Fondamentaux et Concepts Avancés de la Programmation Java`
+  
+ 
+---
 **Projet Académique 2024/2025**
 
   --> **Agence Immobilière**
-
- 
- ##  Auteur
- 
- **Réalisé par :**  `Salma LAKHAL`
- 
-**École Normale Supérieure de Marrakech** 
-
-> **Module :** `Fondamentaux et Concepts Avancés de la Programmation Java`
-
-> **Encadré par :** `Pr. Mohamed LACHGAR`
----
 
 ###  Merci d’avoir consulté ce projet !
  
