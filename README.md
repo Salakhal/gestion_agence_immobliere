@@ -152,9 +152,10 @@ https://github.com/user-attachments/assets/71a55739-764a-496d-abe7-a5935228f6fe
 
 Voici une démonstration complète de l'application illustrant le scénario : Login, Gestion des biens, Recherche et visualisation du Dashboard.
 
-**Cliquez ici pour voir la vidéo** :
 
 https://github.com/user-attachments/assets/25bd07a5-fe78-4a17-ae2e-b305089a2713
+
+
 
 
 ------
